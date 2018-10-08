@@ -17,6 +17,7 @@ sudo apt remove opencv-contrib
 -DENABLE_FAST_MATH:BOOL="1" -DOPENCV_EXTRA_MODULES_PATH:PATH="/home/thananop/Workspace/opencv/opencv_contrib-3.4.3/modules" -DCPU_BASELINE:STRING="AVX2" -DOPENCV_ENABLE_NONFREE:BOOL="1" -DENABLE_CXX11:BOOL="1" 
 
 ## cv2.getBuiltInformation()
+```
 General configuration for OpenCV 3.4.3 =====================================
   Version control:               unknown
 
@@ -140,5 +141,4 @@ General configuration for OpenCV 3.4.3 =====================================
   Matlab:                        NO
 
   Install to:                    /usr/local
------------------------------------------------------------------
-
+```
